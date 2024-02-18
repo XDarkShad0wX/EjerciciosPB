@@ -5,8 +5,7 @@ public class Ejercicio10 {
         Scanner scanner = new Scanner(System.in);
 
         System.out.println("/// Ingrese las longitudes de los lados para calcular el area del triangulo ///");
-        System.out.println("")
-        ;
+        System.out.println("");
         System.out.println("Lado A: ");
         System.out.print("||");
         float ladoA = scanner.nextFloat();

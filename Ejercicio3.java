@@ -1,15 +1,18 @@
 import java.util.Scanner;
+
 public class Ejercicio3 {
-    public static void main(String[] args) throws Exception {
+    public static void main(String[] arg) throws Exception {
         Scanner scanner = new Scanner(System.in);
 
-        System.out.println("Ingrese el radio del circulo: ");
-        System.out.print("||");
+        System.out.println("Ingrese la base del Triangulo: ");
+        System.out.println("||");
+        float baseT = scanner.nextFloat();
+        System.out.println("Ingrede la altura del Triangulo: ");
+        float alturaT = scanner.nextFloat();
 
-        float radio = scanner.nextFloat();
-        float area = (float) (Math.PI * Math.pow(radio, 2));
-        System.out.println("El área del círculo es: " + area);
+        float area = (baseT * alturaT) / 2;
 
+        System.out.println("El area del Triangulo es de: " + area);
         scanner.close();
     }
 }

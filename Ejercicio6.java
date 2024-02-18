@@ -21,5 +21,7 @@ public class Ejercicio6 {
         float media = (num1 + num2 + num3) / 3;
 
         System.out.println("La media aritmetica de los 3 numeros es: "+ media);
+
+        scanner.close();
     }
 }

@@ -6,8 +6,8 @@ public class Ejercicio3 {
         System.out.println("Ingrese el radio del circulo: ");
         System.out.print("||");
 
-        double radio = scanner.nextDouble();
-        double area = Math.PI * Math.pow(radio, 2);
+        float radio = scanner.nextFloat();
+        float area = (float) (Math.PI * Math.pow(radio, 2));
         System.out.println("El área del círculo es: " + area);
 
         scanner.close();

@@ -8,11 +8,11 @@ public class Ejercicio8 {
 
         System.out.println("primer numero: ");
         System.out.print("||");
-        int num1 = scanner.nextInt();
+        float num1 = scanner.nextFloat();
 
         System.out.println("Entre Segundo numero: ");
         System.out.print("||");
-        int num2 = scanner.nextInt();
+        float num2 = scanner.nextFloat();
 
         float residuo = num1 % num2;
 

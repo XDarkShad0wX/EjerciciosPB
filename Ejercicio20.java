@@ -40,11 +40,11 @@ public class Ejercicio20{
         System.out.println("----------------------------------------------------");
         System.out.println("- La suma de las notas es de: " + suma);
         System.out.println("- El promedio de las notas es de " + promedio);
-        System.out.println("- El dobre de la nota " + nota1 + " es de: " + dobleN1);
-        System.out.println("- El dobre de la nota " + nota2 + " es de: " + dobleN2);
-        System.out.println("- El dobre de la nota " + nota3 + " es de: " + dobleN3);
-        System.out.println("- El dobre de la nota " + nota4 + " es de: " + dobleN4);
-        System.out.println("- El dobre de la nota " + nota5 + " es de: " + dobleN5);
+        System.out.println("- El doble de la nota " + nota1 + " es de: " + dobleN1);
+        System.out.println("- El doble de la nota " + nota2 + " es de: " + dobleN2);
+        System.out.println("- El doble de la nota " + nota3 + " es de: " + dobleN3);
+        System.out.println("- El doble de la nota " + nota4 + " es de: " + dobleN4);
+        System.out.println("- El doble de la nota " + nota5 + " es de: " + dobleN5);
         System.out.println("----------------------------------------------------");
 
         scanner.close();

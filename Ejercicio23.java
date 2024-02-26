@@ -1,3 +1,4 @@
+import java.util.Arrays;
 import java.util.Random;
 import java.util.Scanner;
 
@@ -15,7 +16,7 @@ public class Ejercicio23 {
             AleatoriosP[2] = aleatorio.nextInt(9) + 1;
         } while (AleatoriosP[2] == AleatoriosP[0] || AleatoriosP[2] == AleatoriosP[1]);
 
-        
+        System.out.println("Respuesta: " + Arrays.toString(AleatoriosP));
 
         int intentos = 0;
         boolean juegoTerminado = false;
@@ -56,7 +57,7 @@ public class Ejercicio23 {
         scanner.close();
     }
 
-    private static boolean contains(int[] array, int num) {
+    public static boolean contains(int[] array, int num) {
         for (int value : array) {
             if (value == num) {
                 return true;

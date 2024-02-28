@@ -1,6 +1,6 @@
 import java.util.Scanner;
 public class Ejercicio26 {
-    public static void main(String[] args) throws Exception {
+    public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
         System.out.println("Ingrese los datos para alcular el cuadrado de la hipotenusa de un triángulo rectángulo");

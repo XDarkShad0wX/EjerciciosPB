@@ -1,6 +1,6 @@
 import java.util.Scanner;
 public class Ejercicio30 {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws Exception{
         Scanner scanner = new Scanner(System.in);
 
         System.out.print("Ingrese la distancia en kilometros: ");

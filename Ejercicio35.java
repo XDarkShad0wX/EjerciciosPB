@@ -5,21 +5,23 @@ public class Ejercicio35 {
         Scanner scanner = new Scanner(System.in);
 
         System.out.println("Ingrese las horas trabajadas: ");
+        System.out.print("||");
         int horasT = scanner.nextInt();
 
         System.out.println("Ingrese la tarifa por hora: ");
+        System.out.print("||");
         float tarifa = scanner.nextFloat();
 
-        float sueldoBase = horasT * tarifa;
+        float sueldo = horasT * tarifa;
         float tarifaExtra = 0.50f * tarifa;
         float sueldoTotal;
 
         if (horasT > 40) {
             float horasExtra = horasT - 40;
             float pagoExtra = horasExtra * tarifaExtra;
-            sueldoTotal = sueldoBase + pagoExtra;
+            sueldoTotal = sueldo + pagoExtra;
         } else {
-            sueldoTotal = sueldoBase;
+            sueldoTotal = sueldo;
         }
 
         System.out.println("El total del sueldo es de: " + sueldoTotal);

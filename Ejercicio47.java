@@ -11,17 +11,18 @@ public class Ejercicio47 {
         System.out.println("");
         System.out.println("Ingrese el precio de la compra: ");
         System.out.print("||");
-        float precioCompra = scanner.nextFloat();
+        float precio = scanner.nextFloat();
 
+        System.out.println("");
         System.out.println("Ingrese el precio pagado: ");
         System.out.print("||");
-        float precioPagado = scanner.nextFloat();
+        float Pago = scanner.nextFloat();
 
-        float descuento = precioCompra - precioPagado;
+        float descuento = precio - Pago;
 
-        double porcentajeDescuento = (descuento / precioCompra) * 100;
+        double porcentaje = (descuento / precio) * 100;
 
-        System.out.println("- El descuento es de: " + porcentajeDescuento + "%");
+        System.out.println("- El descuento es de: " + porcentaje + "%");
         System.out.println("- El descuento por unidad es de: " + descuento / cantidad);
 
         scanner.close();

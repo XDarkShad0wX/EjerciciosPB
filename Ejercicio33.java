@@ -28,13 +28,14 @@ public class Ejercicio33 {
         while (contadorEmpl <= numeroE) {
 
             System.out.println("");
-            System.out.println("Ingrese el género del empleado #" + contadorEmpl + " (Hombre - Mujer)");
+            System.out.println("Ingrese el genero del empleado #" + contadorEmpl + " (Hombre - Mujer)");
             System.out.print("||");
 
             String genero = scanner.next();
 
             while (!genero.toString().trim().equals("Hombre") && !genero.toString().trim().equals("Mujer")) {
-                System.out.println("- Ingrese solo (Hombre - Mujer) -");
+                System.out.println("");
+                System.out.println("/// Solo (Hombre - Mujer), Ingrese de nuevo: ///");
                 System.out.print("||");
                 genero = scanner.next();
             }
@@ -45,12 +46,12 @@ public class Ejercicio33 {
             }
 
             System.out.println("");
-            System.out.println("Ingrese el salario del empleado");
+            System.out.println("Ingrese el Salario del empleado");
             System.out.print("||");
 
             while (!scanner.hasNextInt()) {
                 System.out.println("");
-                System.out.println("- Ingrese un número entero -");
+                System.out.println("- Ingrese un numero Entero -");
                 System.out.print("||");
 
                 scanner.next();
@@ -65,7 +66,6 @@ public class Ejercicio33 {
             sumaSalarios += salarioE;
             contadorEmpl++;
         }
-
         double promedioSalarios = (double) sumaSalarios / numeroE;
         double porcentajeMujeres = ((double) contadorMuj / numeroE) * 100;
         double porcentajeHombres = ((double) contadorHom / numeroE) * 100;

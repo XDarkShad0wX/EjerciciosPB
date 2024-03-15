@@ -33,9 +33,14 @@ public class Ejercicio33 {
 
             String genero = scanner.next();
 
-            if (genero.equalsIgnoreCase("Hombre")) {
+            while (!genero.toString().trim().equals("Hombre") && !genero.toString().trim().equals("Mujer")) {
+                System.out.println("- Ingrese solo (Hombre - Mujer) -");
+                System.out.print("||");
+                genero = scanner.next();
+            }
+            if (genero.trim().equalsIgnoreCase("Hombre")) {
                 contadorHom++;
-            } else if (genero.equalsIgnoreCase("Mujer")) {
+            } else if (genero.trim().equalsIgnoreCase("Mujer")) {
                 contadorMuj++;
             }
 
@@ -53,7 +58,7 @@ public class Ejercicio33 {
 
             int salarioE = scanner.nextInt();
 
-            if (salarioE > 700) {
+            if (salarioE >= 800) {
                 salarioM700++;
             }
 

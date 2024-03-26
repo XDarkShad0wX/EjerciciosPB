@@ -9,20 +9,20 @@ public class Ejercicio55 {
         System.out.print("||");
         int num = scanner.nextInt();
 
-        boolean Primo = true;
+        boolean primo = true;
 
         if (num <= 1) {
-            Primo = false;
+            primo = false;
         } else {
             for (int i = 2; i <= Math.sqrt(num); i++) {
                 if (num % i == 0) {
-                    Primo = false;
+                    primo = false;
                     break;
                 }
             }
         }
 
-        if (Primo) {
+        if (primo) {
             System.out.println("");
             System.out.println("- El número " + num + " es primo.");
         } else {

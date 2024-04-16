@@ -30,6 +30,7 @@ public class Ejercicio73 {
         } catch (InputMismatchException e) {
             System.out.println("//// Ingrese un número válido ////");
         } finally {
+
             scanner.close();
         }
     }

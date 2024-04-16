@@ -5,6 +5,7 @@ public class Ejercicio69 {
 
         System.out.println("");
         System.out.println("Ingrese el valor de (n):");
+        System.out.print("||");
         int n = scanner.nextInt();
 
         int suma = 0;
@@ -15,7 +16,7 @@ public class Ejercicio69 {
 
 
         System.out.println("");
-        System.out.println("La suma desde N = " + n + " es igual a: " + suma);
+        System.out.println("La suma desde 21 hasta N = " + n + " es igual a: " + suma);
 
         scanner.close();
     }

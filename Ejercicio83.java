@@ -22,8 +22,10 @@ public class Ejercicio83 {
         float promedio = (num1 + num2 + num3) / 3;
 
         if (promedio > 7) {
+            System.out.println("");
             System.out.println("APROBADO");
         } else {
+            System.out.println("");
             System.out.println("MEJORE LA NOTA");
         }
 

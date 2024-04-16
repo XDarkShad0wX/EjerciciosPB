@@ -24,6 +24,7 @@ public class Ejercicio72 {
         }
 
         System.out.println("El salario del trabajador es: $" + salario);
+
         scanner.close();
     }
 }

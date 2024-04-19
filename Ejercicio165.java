@@ -4,33 +4,24 @@ public class Ejercicio165 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        System.out.println("");
-        System.out.println("Ingresa tu peso en kg: ");
+        System.out.println("Ingresa la cantidad de horas: ");
         System.out.print("||");
-        double peso = scanner.nextDouble();
+        int horas = scanner.nextInt();
 
         System.out.println("");
-        System.out.println("Ingresa tu estatura en metros: ");
+        System.out.println("Ingresa la cantidad de minutos: ");
         System.out.print("||");
-        double estatura = scanner.nextDouble();
-        
-        double imc = peso / (estatura * estatura);
-        
-        String categoria;
-        if (imc < 18.5) {
-            categoria = "Bajo peso";
-        } else if (imc < 25) {
-            categoria = "Normal";
-        } else if (imc < 30) {
-            categoria = "Sobrepeso";
-        } else {
-            categoria = "Obesidad";
-        }
+        int minutos = scanner.nextInt();
 
         System.out.println("");
-        System.out.println("///// Informacion /////");
-        System.out.println("- \nTu IMC es: " + imc);
-        System.out.println("- Categoría: " + categoria);
+        System.out.println("Ingresa la cantidad de segundos: ");
+        System.out.print("||");
+        int segundos = scanner.nextInt();
+
+        int totalSegundos = horas * 3600 + minutos * 60 + segundos;
+
+        System.out.println("");
+        System.out.println("\nEl total de segundos es: " + totalSegundos);
 
         scanner.close();
     }

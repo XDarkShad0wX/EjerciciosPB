@@ -12,10 +12,12 @@ public class Ejercicio134 {
         System.out.print("||");
         float numero1 = scanner.nextFloat();
 
+        System.out.println("");
         System.out.println("numero 2: ");
         System.out.print("||");
         float numero2 = scanner.nextFloat();
 
+        System.out.println("");
         System.out.println("numero 3: ");
         System.out.print("||");
         float numero3 = scanner.nextFloat();

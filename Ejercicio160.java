@@ -4,8 +4,9 @@ public class Ejercicio160 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
+        System.out.println("");
         System.out.println("Ingresa un tiempo en segundos:");
-        System.out.print("");
+        System.out.print("||");
         int segundos = scanner.nextInt();
 
         int dias = segundos / (24 * 3600);
